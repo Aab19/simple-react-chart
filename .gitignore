@@ -1,0 +1,26 @@
+# Don't check auto-generated stuff into git
+coverage
+build
+node_modules
+stats.json
+
+# Cruft
+.DS_Store
+npm-debug.log
+.idea
+
+# Dependency directories
+jspm_packages
+
+# Optional npm cache directory
+.npm
+npm-debug.log*
+
+# Optional REPL history
+.node_repl_history
+.vscode
+build/
+webpack-assets.json
+.yarn.lock
+yarn.lock
+dist
